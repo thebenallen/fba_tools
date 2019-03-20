@@ -1,0 +1,52 @@
+#
+# define display information
+#
+name: Compare Models
+tooltip: |
+    Compare FBA Models based on reactions, compounds, biomass and proteins
+screenshots: []
+
+icon: fba-teal.png
+
+#
+# define a set of similar methods that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            []
+        next:
+            []
+    methods:
+        related:
+            []
+        next:
+            [build_metabolic_model]
+
+#
+# Configure the display and description of parameters
+#
+parameters :
+    mc_name :
+        ui-name : |
+            Model Comparison
+        short-hint : |
+            Name for Model Comparison to be created
+    model_ref :
+        ui-name : |
+            FBA Model
+        short-hint : |
+            An FBA Model to compare
+    pangenome_ref :
+        ui-name : |
+            Pangenome
+        short-hint : |
+            A Pangenome to use in comparing reaction-associated proteins among two or more models
+description : |
+    <p>This app compares FBA Models based on reactions, compounds, biomass and proteins.</p>
+
+publications :
+    -
+        display-text: |
+            Arkin AP, Cottingham RW, Henry CS, Harris NL, Stevens RL, Maslov S, et al. KBase: The United States Department of Energy Systems Biology Knowledgebase. Nature Biotechnology. 2018;36: 566. doi: 10.1038/nbt.4163
+        link: https://www.nature.com/articles/nbt.4163
