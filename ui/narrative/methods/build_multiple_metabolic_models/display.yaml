@@ -1,7 +1,12 @@
+Assignees: 
+Due: April 8th
+
+____________________________________________________________________________
+
 #
 # Define basic display information
 #
-name     : Build Multiple Metabolic Models
+name     : Build Multiple Metabolic Models Blah Blah
 
 tooltip  : |
     Generate a draft metabolic model based on an annotated genome.
